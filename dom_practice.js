@@ -21,3 +21,7 @@ var image = document.createElement("img")
 image.setAttribute("src","https://miro.medium.com/max/600/1*AbIENM-AxXqGSCTnvMjf6Q.jpeg")
 var footer = document.querySelector("footer")
 footer.appendChild(image)
+
+// Remove function
+// var footerText = document.querySelector("h5")
+// footerText.remove()
