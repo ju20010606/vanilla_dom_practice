@@ -15,3 +15,9 @@ document.querySelectorAll("li")[0].style.color = "blue"
 
 
 document.querySelectorAll("li")[1].innerText = "Jamboree sandwich at the Jambo-ree"
+
+var image = document.createElement("img")
+
+image.setAttribute("src","https://miro.medium.com/max/600/1*AbIENM-AxXqGSCTnvMjf6Q.jpeg")
+var footer = document.querySelector("footer")
+footer.appendChild(image)
